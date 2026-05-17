@@ -135,6 +135,15 @@ export const projects: Project[] = [
     metric: "Improved reporting speed",
     tone: "cyan",
     image: "5.png",
+  },
+  {
+    title: "Yummy Pet Palate",
+    category: "E-commerce Website",
+    problem: "A specialized online store for premium pet food and treats.",
+    stack: ["React", "Shopify"],
+    metric: "Increased sales by 20%",
+    tone: "violet",
+    video: "YummyPetPalate.mp4",
   }
 ];
 
@@ -145,38 +154,40 @@ export const caseStudies = [
 ];
 
 export const skills: Skill[] = [
-  { label: "UI/UX Design",           value: 94, tools: "Figma, Adobe XD, Illustrator, Photoshop" },
-  { label: "Frontend Development",   value: 92, tools: "React, TypeScript, Tailwind CSS, Vite" },
-  { label: "Full-Stack Delivery",    value: 86, tools: "Node.js, REST APIs, PostgreSQL, Auth, Vercel" },
-  { label: "Product Strategy",       value: 90, tools: "User research, wireframes, OKRs, client workshops" },
+  { label: "UI/UX Design",           value: 99, tools: "Figma, Adobe XD, Illustrator, Photoshop" },
+  { label: "Full-Stack Development", value: 99, tools: "React, Node.js, PostgreSQL, Auth, Vercel" },
+  { label: "Project Management",     value: 100, tools: "Jira, Agile, Scrum" },
+  { label: "Core Competencies",      value: 95, tools: "Management Skills, Creativity, Digital Marketing, Negotiation, Critical Thinking, Leadership" },
 ];
 
 export const experience: Experience[] = [
   {
-    period: "2023 - Present",
-    role: "Independent Designer & Full-Stack Developer",
-    description:
-      "Running end-to-end product engagements for US startups — from initial discovery and wireframes through to production deployment. Responsible for design decisions, engineering execution, and client communication.",
+    period: "2023 - 2025",
+    role: "Manager",
+    description: "Tech Pulse: Experienced Manager skilled in leading teams and improving operations to achieve business goals. Focused on efficiency, teamwork, and delivering consistent results."
   },
   {
-    period: "2021 - 2023",
-    role: "Frontend Developer",
-    description:
-      "Owned the frontend layer of two SaaS products — built component libraries from scratch, established design-system documentation, and drove Lighthouse performance from 68 to 94 across both products.",
+    period: "2022 - 2023",
+    role: "Team Leader",
+    description: "Assume Technologies: Skilled Team Leader with a focus on collaboration, motivation, and achieving results."
   },
   {
-    period: "2019 - 2021",
-    role: "UI/UX Designer",
-    description:
-      "Delivered product design across web and mobile — wireframes, prototypes, and brand-aligned interfaces for startups in fintech, healthcare, and e-commerce verticals.",
+    period: "2018 - 2022",
+    role: "Sales Executive",
+    description: "Future Tech Vision: Results driven Sales Executive skilled in closing deals and building strong client relationships. Worked here for 4 years."
   },
+  {
+    period: "2021 - 2025",
+    role: "Software Engineering",
+    description: "Pursued comprehensive studies and practical training in Software Engineering."
+  }
 ];
 
 // ── Contact & Social ────────────────────────────────────────────────────────
 // 🔴 UPDATE: Replace with Jahanzaib's real Gmail address below
-export const CONTACT_EMAIL = "jahanzaibkhan@gmail.com";
+export const CONTACT_EMAIL = "jahanzaibkhann77@gmail.com";
 
 export const socialLinks = [
-  { label: "jahanzaibkhan@gmail.com", href: `mailto:${CONTACT_EMAIL}`,  target: "_self" },
+  { label: "jahanzaibkhann77@gmail.com", href: `mailto:${CONTACT_EMAIL}`,  target: "_self" },
   { label: "LinkedIn",                href: "https://www.linkedin.com/in/jahanzaib-khan-8aa560401/", target: "_blank" },
 ];

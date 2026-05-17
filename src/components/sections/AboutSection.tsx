@@ -20,11 +20,13 @@ export function AboutSection() {
           show any senior engineer or design director. I communicate clearly, hit
           deadlines, and treat every engagement as a long-term partnership.
         </p>
+        <p>
+          <strong>Achievement (2012–2017):</strong> Played table tennis for 5 years and ranked among the top 5 players in the region.
+        </p>
         <div className="about-facts">
-          <span>6 Years Experience</span>
-          <span>US Remote</span>
+          <span>Languages: English, Urdu</span>
+          <span>Management & Leadership</span>
           <span>Design → Code</span>
-          <span>English fluent</span>
         </div>
       </div>
     </section>
