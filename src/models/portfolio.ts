@@ -6,9 +6,11 @@ export type Project = {
   problem: string;
   stack: string[];
   metric: string;
-  demo: string;
-  repo: string;
+  demo?: string;
+  repo?: string;
   tone: ProjectTone;
+  video?: string;
+  image?: string;
 };
 
 export type Skill = {
@@ -34,49 +36,106 @@ export const roles = [
 
 export const projects: Project[] = [
   {
-    title: "AtlasCRM",
-    category: "Full-Stack SaaS",
-    problem:
-      "A client pipeline dashboard that replaces scattered spreadsheets with searchable deal flows, activity logs, and revenue forecasting — built for lean sales teams that need clarity at a glance.",
-    stack: ["React", "Node", "Postgres", "Figma"],
-    metric: "Reduced lead follow-up time by 42%",
-    demo: "https://jahanzaib.dev/atlascrm",
-    repo: "https://github.com/jahanzaib/atlascrm",
+    title: "Apptrix",
+    category: "Web Application",
+    problem: "A comprehensive solution for managing appointments and schedules efficiently.",
+    stack: ["React", "Node.js", "MongoDB"],
+    metric: "Increased scheduling efficiency by 40%",
     tone: "cyan",
+    video: "Apptrix.mp4",
   },
   {
-    title: "FinSight Mobile",
-    category: "UI/UX Case Study",
-    problem:
-      "A personal finance app designed for confident mobile decision-making — faster budget reviews, cleaner transaction grouping, and an interface that respects the user's time.",
-    stack: ["Figma", "React Native", "User Flows", "Prototyping"],
-    metric: "Improved task completion by 31%",
-    demo: "https://jahanzaib.dev/finsight",
-    repo: "https://github.com/jahanzaib/finsight",
+    title: "Gem Elegance",
+    category: "E-commerce Platform",
+    problem: "A premium online jewelry store designed for high-end customer experiences.",
+    stack: ["React", "Shopify", "Tailwind CSS"],
+    metric: "Boosted online sales by 25%",
     tone: "violet",
+    video: "GemElegance.mp4",
   },
   {
-    title: "LaunchNest",
-    category: "Frontend Platform",
-    problem:
-      "A modular landing-page builder for founders — ships campaign pages in hours with reusable content sections, embedded analytics, and conversion-focused copy patterns.",
-    stack: ["React", "TypeScript", "Vercel", "CMS"],
-    metric: "Lighthouse performance score: 96",
-    demo: "https://jahanzaib.dev/launchnest",
-    repo: "https://github.com/jahanzaib/launchnest",
+    title: "Institute of Fine Arts",
+    category: "Educational Portal",
+    problem: "An interactive digital gallery and course management system for art students.",
+    stack: ["Vue.js", "Firebase", "CSS Modules"],
+    metric: "Enhanced student engagement by 50%",
     tone: "mint",
+    video: "InstituteofFineArts.mp4",
   },
   {
-    title: "CareSync Portal",
-    category: "Product Design",
-    problem:
-      "A patient scheduling and intake portal that cuts front-desk workload in half — accessible on mobile, WCAG-compliant, and designed to reduce form abandonment at every step.",
-    stack: ["Figma", "Design System", "React", "A11y"],
-    metric: "Cut form abandonment by 28%",
-    demo: "https://jahanzaib.dev/caresync",
-    repo: "https://github.com/jahanzaib/caresync",
+    title: "Inventory",
+    category: "Internal Dashboard",
+    problem: "A robust inventory management system with real-time tracking and reporting.",
+    stack: ["Angular", "Express", "PostgreSQL"],
+    metric: "Reduced inventory errors by 30%",
     tone: "gold",
+    video: "Inventory.mp4",
   },
+  {
+    title: "Luxury Stay",
+    category: "Booking System",
+    problem: "A high-end hotel booking platform with virtual tours and seamless reservation flow.",
+    stack: ["Next.js", "Prisma", "Stripe"],
+    metric: "Increased direct bookings by 35%",
+    tone: "cyan",
+    video: "LuxuryStay.mp4",
+  },
+  {
+    title: "Plant Palace",
+    category: "E-commerce Store",
+    problem: "A vibrant online store for exotic plants with care guides and subscription boxes.",
+    stack: ["React", "Gatsby", "Contentful"],
+    metric: "Grew subscriber base by 20% MoM",
+    tone: "mint",
+    video: "PlantPalace.mp4",
+  },
+  {
+    title: "Ruya Airlines",
+    category: "Aviation Portal",
+    problem: "A streamlined flight booking and management system for a modern airline.",
+    stack: ["React", "GraphQL", "AWS"],
+    metric: "Improved check-in speed by 45%",
+    tone: "violet",
+    video: "RuyaAirlines.mp4",
+  },
+
+  {
+    title: "The Groove Fest",
+    category: "Event Platform",
+    problem: "A dynamic website for a music festival featuring artist lineups and ticket sales.",
+    stack: ["Vue.js", "Nuxt", "Tailwind CSS"],
+    metric: "Sold out tickets in 48 hours",
+    tone: "cyan",
+    video: "TheGrooveFest.mp4",
+  },
+  {
+    title: "Coffee Palace",
+    category: "Brand Website",
+    problem: "An inviting digital storefront for a boutique coffee roaster.",
+    stack: ["HTML", "CSS", "JavaScript"],
+    metric: "Expanded brand reach locally",
+    tone: "gold",
+    image: "coffee-palace.jpg",
+  },
+  {
+    title: "HMS",
+    category: "Healthcare System",
+    problem: "A secure hospital management system handling patient records and billing.",
+    stack: ["React", "Node.js", "PostgreSQL"],
+    metric: "Streamlined patient intake",
+    tone: "mint",
+    image: "hms.png",
+  },
+
+  {
+    title: "Pandemix",
+    category: "Web Application",
+    problem: "A data visualization dashboard for financial analytics.",
+    stack: ["React", "D3.js", "AWS"],
+    metric: "Improved reporting speed",
+    tone: "cyan",
+    image: "5.png",
+  }
 ];
 
 export const caseStudies = [

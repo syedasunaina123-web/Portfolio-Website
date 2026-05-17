@@ -5,6 +5,29 @@ type ProjectMockupProps = {
 };
 
 export function ProjectMockup({ project }: ProjectMockupProps) {
+  if (project.video || project.image) {
+    return (
+      <div className={`mockup mockup-${project.tone}`} style={{ padding: 0, overflow: 'hidden', minHeight: '260px', display: 'flex' }} aria-label={`${project.title} preview`}>
+        {project.video ? (
+          <video 
+            src={`/${project.video}`} 
+            autoPlay 
+            loop 
+            muted 
+            playsInline 
+            style={{ width: '100%', height: '100%', minHeight: '260px', objectFit: 'cover', display: 'block' }}
+          />
+        ) : (
+          <img 
+            src={`/${project.image}`} 
+            alt={project.title} 
+            style={{ width: '100%', height: '100%', minHeight: '260px', objectFit: 'cover', display: 'block' }}
+          />
+        )}
+      </div>
+    );
+  }
+
   return (
     <div className={`mockup mockup-${project.tone}`} aria-label={`${project.title} mockup`}>
       <div className="mockup-browser">

@@ -688,6 +688,15 @@ blockquote,
   border-color: rgba(0, 212, 255, 0.3);
 }
 
+@media (min-width: 681px) {
+  .project-card:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+    width: calc(50% - 9px);
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .mockup {
   position: relative;
   min-height: 220px;

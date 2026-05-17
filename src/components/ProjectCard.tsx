@@ -20,8 +20,8 @@ export function ProjectCard({ project }: ProjectCardProps) {
           ))}
         </div>
         <div className="project-links">
-          <a href={project.demo}>Live Demo</a>
-          <a href={project.repo}>GitHub Repo</a>
+          {project.demo && <a href={project.demo}>Live Demo</a>}
+          {project.repo && <a href={project.repo}>GitHub Repo</a>}
         </div>
       </div>
     </article>
