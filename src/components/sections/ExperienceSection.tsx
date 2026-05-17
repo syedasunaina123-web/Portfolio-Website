@@ -14,7 +14,7 @@ export function ExperienceSection() {
           </article>
         ))}
       </div>
-      <a className="resume-link" href="/Jahanzaib-Resume.pdf">
+      <a className="resume-link" href="/Jahanzaib-Resume.pdf" download="Jahanzaib_Khan_Resume.pdf" target="_blank" rel="noopener noreferrer">
         Download Resume PDF
       </a>
     </section>

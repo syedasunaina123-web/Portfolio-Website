@@ -1341,3 +1341,20 @@ cite {
     padding: 20px;
   }
 }
+
+/* ── Light Mode Hack ────────────────────────────────────────── */
+html[data-theme="light"] {
+  filter: invert(1) hue-rotate(180deg);
+  background-color: var(--bg);
+}
+
+html[data-theme="light"] img,
+html[data-theme="light"] video,
+html[data-theme="light"] svg.avatar-photo {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+html[data-theme="light"] .hero-glow-one,
+html[data-theme="light"] .hero-glow-two {
+  opacity: 0.15;
+}

@@ -1,4 +1,5 @@
 import { navItems } from "../../models/portfolio";
+import { ThemeToggle } from "../common/ThemeToggle";
 
 export function Header() {
   return (
@@ -12,6 +13,7 @@ export function Header() {
             {item}
           </a>
         ))}
+        <ThemeToggle />
       </nav>
     </header>
   );
