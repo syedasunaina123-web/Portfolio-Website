@@ -23,7 +23,7 @@ export function HeroProfileCard() {
           {/* Email + LinkedIn icon buttons — overlaid on photo */}
           <div className="avatar-social">
             <a
-              href="mailto:jahanzaibkhann77@gmail.com"
+              href="mailto:jahanzaibwaseem01@gmail.com"
               aria-label="Email Jahanzaib"
               className="avatar-icon-btn"
               title="Send Email"

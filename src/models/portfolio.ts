@@ -154,10 +154,10 @@ export const caseStudies = [
 ];
 
 export const skills: Skill[] = [
-  { label: "UI/UX Design",           value: 99, tools: "Figma, Adobe XD, Illustrator, Photoshop" },
+  { label: "UI/UX Design", value: 99, tools: "Figma, Adobe XD, Illustrator, Photoshop" },
   { label: "Full-Stack Development", value: 99, tools: "React, Node.js, PostgreSQL, Auth, Vercel" },
-  { label: "Project Management",     value: 100, tools: "Jira, Agile, Scrum" },
-  { label: "Core Competencies",      value: 95, tools: "Management Skills, Creativity, Digital Marketing, Negotiation, Critical Thinking, Leadership" },
+  { label: "Project Management", value: 100, tools: "Jira, Agile, Scrum" },
+  { label: "Core Competencies", value: 95, tools: "Management Skills, Creativity, Digital Marketing, Negotiation, Critical Thinking, Leadership" },
 ];
 
 export const experience: Experience[] = [
@@ -185,9 +185,9 @@ export const experience: Experience[] = [
 
 // ── Contact & Social ────────────────────────────────────────────────────────
 // 🔴 UPDATE: Replace with Jahanzaib's real Gmail address below
-export const CONTACT_EMAIL = "jahanzaibkhann77@gmail.com";
+export const CONTACT_EMAIL = "jahanzaibwaseem01@gmail.com";
 
 export const socialLinks = [
-  { label: "jahanzaibkhann77@gmail.com", href: `mailto:${CONTACT_EMAIL}`,  target: "_self" },
-  { label: "LinkedIn",                href: "https://www.linkedin.com/in/jahanzaib-khan-8aa560401/", target: "_blank" },
+  { label: "jahanzaibwaseem01@gmail.com", href: `mailto:${CONTACT_EMAIL}`, target: "_self" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/jahanzaib-khan-8aa560401/", target: "_blank" },
 ];
